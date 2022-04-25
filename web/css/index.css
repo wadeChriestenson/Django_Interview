@@ -1,17 +1,30 @@
 body{
     background-color: snow;
+    overflow-x: hidden;
 }
 header{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    background-color: steelblue;
+    width: 101vw;
+    margin-left: -15px;
+    margin-top: -25px;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    padding-top: 25px;
 }
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100vw;
+    padding: 10px;
+    background-color: silver;
+    width: 101vw;
+    margin-left: -15px;
 }
-h1{
-    text-align: center;
+.space{
+    height: 15px;
 }
 .mainWrapper{
     display: flex;
@@ -19,22 +32,44 @@ h1{
     /*width: 100vw;*/
     height: 100%;
 }
-
 .about{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 50%;
-    padding: 15px
+    padding: 15px;
+
 }
-
-aside{
+.company{
     border: 1px solid black;
+    width: 25%;
+    padding-left: 25px;
+    height: 50%;
+    border-radius: 15px;
+}
+.advantage{
+        border: 1px solid black;
         width: 25%;
-        padding: 15px
-
+        padding-left: 25px;
+        /*background-color: steelblue;*/
+        border-radius: 15px;
+}
+h5{
+    width: 50%;
+    text-decoration: underline;
+}
+.adv{
+    margin-top: -20px;
+}
+.spacer{
+    height: 45px;
 }
 footer{
-    border: 1px solid black;
+    background-color: steelblue;
+    width: 101vw;
+    margin-left: -15px;
+    margin-top: -20px;
+    height: 100px;
 }
 li{
     text-decoration: underline;
+    padding: 5px;
 }
