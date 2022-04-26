@@ -2,16 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Django Interview Prep</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/basic.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-                        <a class="l1A">Django follows the MVT (Model View Template) pattern which is based on the
+    <header>
+        <h1>Django Interview Prep</h1>
+    </header>
+    <nav>
+        <a class="a">Basic Django Interview Questions</a>
+        <a class="a">Intermediate Django Interview Questions</a>
+        <a class="a">Advanced Django Interview Questions</a>
+        <a class="a">Basic Django Interview Questions</a>
+    </nav>
+        <div class="mainWrapper">
+        <div class="leftWrapper">
+                <section class="about">
+        <h2>About Django</h2>
+        <p>Django (named after the Django Reinhardt) is a high-level Python-based free and open-source web framework
+            that follows the model-view-template(MVT) architectural pattern. As of now, the framework is maintained
+            by Django Software Foundation (DSF), an independent organization based in the US and established as a 501(c)(3) non-benefit.</p>
+        <p>It was created in the fall of 2003 when the web programmers at the Lawrence Journal-World newspaper,
+            Adrian Holovaty and Simon Willson. Begin using Python to build applications. Two years later, in July 2005,
+            it was released to the public under a BSD license. Later, in June 2008, the fledgling
+            Django Software Foundation(DSF) took over the development of Django.</p>
+    </section>
+            <aside class="company">
+        <h3>List of some Companies that use Django:</h3>
+        <ul>
+            <li>Instagram</li>
+            <li>PBS</li>
+            <li>Mozilla</li>
+            <li>The Washington Times</li>
+            <li>Disqus, Bitbucket</li>
+            <li>Next Door</li>
+            <li>Pinterest</li>
+            <li>MacArthur Foundation</li>
+            <li>National Geographic</li>
+            <li>Open Stack</li>
+        </ul>
+    </aside>
+            </div>
+        <div class="middleWrapper">
+            <div class="centerWrap">
+                <h3 class="subTitle">Basic Django Interview Questions</h3>
+                    <div class="ol">
+                        <p class="l">1. Explain Django Architecture?</p>
+                        <a class="lA">Django follows the MVT (Model View Template) pattern which is based on the
                         Model View Controller architecture. It's slightly different from the MVC pattern as it maintains its own conventions,
                             so, the controller is handled by the framework itself. The template is a presentation layer.
                             It is an HTML file mixed with Django Template Language (DTL). The developer provides the model,
-                            the view, and the template then maps it to a URL, and finally, Django serves it to the user.</a>
-                        <p class="l2">2. Explain the Django project directory structure?</p>
-                        <a class="l2A">
+                            the view, and the template then maps it to a URL, and finally, Django serves it to the user.
+                        </a>
+                        <p class="l">2. Explain the Django project directory structure?</p>
+                        <a class="lA">
                             <ul>
                                 <li>manage.py - A command-line utility that allows you to interact with your Django project.</li>
                                 <li>__inti__.py - An empty file that tells Python that the current directory should be considered as a Python package.</li>
@@ -20,5 +66,61 @@
                                 <li>wsgi.py - This is an entry point for your application which is used by the web servers to server the project you have created.</li>
                             </ul>
                         </a>
+                        <p class="l">3.What are models in Django?</p>
+                        <a class="lA"></a>
+                        <p class="l">4. What are templates in Django or Django template language?</p>
+                        <a class="lA"></a>
+                        <p class="l">5. What are views in Django?</p>
+                        <a class="lA"></a>
+                        <p class="l">6. What is Django ORM?</p>
+                        <a class="lA"></a>
+                        <p class="l">7. Define static files and explain their uses?</p>
+                        <a class="lA"></a>
+                        <p class="l">8. What is Django Rest Framework(DRF)?</p>
+                        <a class="lA"></a>
+                        <p class="l">9. What is django-admin and manage.py and explain its commands?</p>
+                        <a class="lA"></a>
+                        <p class="l">10. What is Jinja templating?</p>
+                        <a class="l0A"></a>
+                        <p class="l">11. What are Django URLs?</p>
+                        <a class="lA"></a>
+                        <p class="l">12. What is the difference between a project and an app in Django?</p>
+                        <a class="lA"></a>
+                        <p class="l">13. What are the different model inheritance styles in Django?</p>
+                        <a class="lA"></a>
+                    </div>
+            </div>
+        </div>
+
+    <aside class="advantage">
+        <h3>Advantages of using Django:</h3>
+            <h5>Rich Ecosystem:</h5>
+        <p class="adv">It comes with numerous third-party aps which can be easily integrated as per requirements of the project.</p>
+            <h5>Maturity:</h5>
+        <p class="adv">Django has been in use for over a decade. In the time frame, a lot of features are added and enhanced to make
+        it a Robust framework. Apart from that, there are a large number of developers who use Django.</p>
+            <h5>Admin Panel:</h5>
+        <p class="adv">Django provides an admin dashboard that we can use to do basic CRUD operation over the models.</p>
+            <h5>Plugins:</h5>
+        <p class="adv">Allow programmers to add various features to the application and leave sufficient space for customization.</p>
+            <h5>Libraries:</h5>
+        <p class="adv">Due to the large development community there is an ample number of libraries for every task.</p>
+            <h5>ORM:</h5>
+        <p class="adv">It helps us with working with data in a more object-oriented way.</p>
+    </aside>
+        </div>
+    <footer>
+        <p class="foot">
+            <a class="link" href="https://www.interviewbit.com/">
+                Interviewbit.com
+            </a>
+            - Provided the material for these pages, from their Django Interview Question page found at.&nbsp
+        <a class="link" href="https://www.interviewbit.com/django-interview-questions/">Django Interview Question</a> </p>
+    </footer>
+
+
+<script src="../js/index.js" rel="script"></script>
+
+
 </body>
 </html>
