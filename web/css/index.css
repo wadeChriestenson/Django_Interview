@@ -104,10 +104,17 @@ h5{
 
 }
 footer{
+    display: block;
     background-color: #0C4B33;
     width: 101vw;
     margin-left: -15px;
-    margin-top: 45px;
-    height: 100px;
+    /*margin-top: 45px;*/
+    /*height: 100px;*/
         color: snow;
+}
+.foot{
+    padding: 15px;
+}
+.foot, .link{
+    color: #F8F8F8;
 }
