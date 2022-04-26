@@ -26,7 +26,9 @@ nav{
     margin-left: -15px;
     border-bottom: 1px solid #0C4B33;
 }
-
+.a{
+    color: black;
+}
 .mainWrapper{
     display: flex;
     flex-direction: row;
@@ -78,10 +80,14 @@ li{
     border-radius: 15px;
     box-shadow: 2px 2px #0C4B33;
 }
+
+h5{
+    margin: 0px;
+    padding-left: 15px;
+}
 p{
-    padding-left: 5px;
-    letter-spacing: 1px;
-    cursor: pointer;
+    padding: 5px;
+    /*letter-spacing: 1px;*/
     /*border: 1px solid black;*/
     /*width: 100%;*/
 }
