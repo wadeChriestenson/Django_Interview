@@ -1,8 +1,8 @@
 body{
     background-color: snow;
     overflow-x: hidden;
-    height: 80vh;
-    overflow-y: hidden;
+    /*height: 80vh;*/
+    /*overflow-y: hidden;*/
 }
 header{
     color: snow;
@@ -85,16 +85,6 @@ p{
     /*border: 1px solid black;*/
     /*width: 100%;*/
 }
-a{
-    display: none;
-    z-index: 1;
-    position: relative;
-    width: 25vw;
-    background-color: #0C4B33;
-    border: 1px solid black;
-    color: #F8F8F8;
-    border-radius: 0 15px 15px 0;
-}
 li{
     text-decoration: none;
 }
@@ -117,20 +107,7 @@ footer{
     background-color: #0C4B33;
     width: 101vw;
     margin-left: -15px;
-
+    margin-top: 45px;
     height: 100px;
         color: snow;
-
-}
-.a{
-    width: 100%;
-    border-radius: 0px;
-    border: none;
-    position: revert;
-    background-color: #F8F8F8;
-    color: black;
-    display: revert; !important;
-    cursor: pointer;
-    letter-spacing: 0px;
-    padding: 0px;
 }
