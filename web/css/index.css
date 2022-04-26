@@ -1,6 +1,8 @@
 body{
     background-color: snow;
     overflow-x: hidden;
+    height: 77.5vh;
+    overflow-y: hidden;
 }
 header{
     color: snow;
@@ -48,6 +50,42 @@ li{
 }
 .middleWrapper{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.centerWrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.subTitle{
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+}
+.ol{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    border: 1px solid black;
+    background-color: #F8F8F8;
+    border-radius: 15px;
+    box-shadow: 2px 2px #0C4B33;
+}
+li{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.imgHolder{
+    width: 50%;
+    /*border: 1px solid black;*/
+}
+img{
+    margin-left: 25%;
+    width: 50%;
+    height: 100%;
 }
 .advantage{
         border-left: 1px solid #0C4B33;
