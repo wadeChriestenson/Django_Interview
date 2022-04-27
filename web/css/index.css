@@ -79,17 +79,23 @@ li{
     background-color: #F8F8F8;
     border-radius: 15px;
     box-shadow: 2px 2px #0C4B33;
+    margin-bottom: 20px;
 }
 
-h5{
-    margin: 0px;
+.l{
+    font-size: 18px;
     padding-left: 15px;
-}
-p{
-    padding: 5px;
-    /*letter-spacing: 1px;*/
+    letter-spacing: 1px;
+    /*cursor: pointer;*/
+    font-weight: bold;
     /*border: 1px solid black;*/
     /*width: 100%;*/
+}
+.lA{
+    margin-top: -15px;
+    margin-left: 5%;
+    padding: 5px;
+    width: 90%;
 }
 li{
     text-decoration: none;
