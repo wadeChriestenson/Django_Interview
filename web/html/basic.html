@@ -50,55 +50,55 @@
                 <h3 class="subTitle">Basic Django Interview Questions</h3>
                     <div class="ol">
                         <p class="l">1. Explain Django Architecture?</p>
-                        <a class="lA">Django follows the MVT (Model View Template) pattern which is based on the
+                        <a class="lA">Django follows the MVT (<b><i>Model View Template</i></b>) pattern which is based on the
                         Model View Controller architecture. It's slightly different from the MVC pattern as it maintains its own conventions,
                             so, the controller is handled by the framework itself. The template is a presentation layer.
-                            It is an HTML file mixed with Django Template Language (DTL). The developer provides the model,
+                            It is an HTML file mixed with <b><i>Django Template Language (DTL)</i></b>. The developer provides the model,
                             the view, and the template then maps it to a URL, and finally, Django serves it to the user.
                         </a>
                         <p class="l">2. Explain the Django project directory structure?</p>
                         <a class="lA">
                             <ul>
-                                <li>manage.py - A command-line utility that allows you to interact with your Django project.</li>
-                                <li>__inti__.py - An empty file that tells Python that the current directory should be considered as a Python package.</li>
-                                <li>settings.py - Comprises the configurations of the current project like DB connections.</li>
-                                <li>urls.py - All the URLsof the project are present here.</li>
-                                <li>wsgi.py - This is an entry point for your application which is used by the web servers to server the project you have created.</li>
+                                <li><b><i>manage.py</i></b> - A command-line utility that allows you to interact with your Django project.</li>
+                                <li><b><i>__inti__.py</i></b> - An empty file that tells Python that the current directory should be considered as a Python package.</li>
+                                <li><b><i>settings.py</i></b> - Comprises the configurations of the current project like DB connections.</li>
+                                <li><b><i>urls.py</i></b> - All the URLsof the project are present here.</li>
+                                <li><b><i>wsgi.py</i></b> - This is an entry point for your application which is used by the web servers to server the project you have created.</li>
                             </ul>
                         </a>
                         <p class="l">3.What are models in Django?</p>
-                        <a class="lA">A model in Django refers to a class that maps to a database table or database collection.
+                        <a class="lA">A <b><i>model</i></b> in Django refers to a class that maps to a database table or database collection.
                         Each attribute of the Django model class represents a database field. They are defined in app/model.py.
                             Every Model inherits from <b><i>django.db.models.Model</i></b>. The metaclass helps you sets things like
                             available permissions, singular and plural versions of the name, associated database table name,
                             whether the model is abstract or not, etc.</a>
                         <p class="l">4. What are templates in Django or Django template language?</p>
-                        <a class="lA">Templates are an integral part of Django MVT architecture. They generally comprise
+                        <a class="lA"><b><i>Templates</i></b> are an integral part of Django MVT architecture. They generally comprise
                         HTML, CSS, and JS in which dynamic variables and information are embedded with the help of views.
                             Some constructs are recognized and interpreted by the template engine. The main ones are variables and tags.
                         A template is rendered with a contex. Rendering just replaces variables with their values, present in context,
                         and processes tags. Everything else remains as it is.
                             <p>The syntax of the Django template language includes the following for constructs:</p>
                         <ul>
-                            <li>Variables</li>
-                            <li>Tags</li>
-                            <li>Filters</li>
-                            <li>Comments</li>
+                            <li><b><i>Variables</i></b></li>
+                            <li><b><i>Tags</i></b></li>
+                            <li><b><i>Filters</i></b></li>
+                            <li><b><i>Comments</i></b></li>
                         </ul>
                         </a>
                         <p class="l">5. What are views in Django?</p>
-                        <a class="lA">A view function, or "view" for short, is simply a Python function that takes a web request and returns a web responses.
+                        <a class="lA">A view function, or "<b><i>view</i></b>" for short, is simply a Python function that takes a web request and returns a web responses.
                             This response can be HTML contents of a web page, or a redirect, or a 404 error, or an XML document, or an image, etc.
                         <p>
                             There are two types of views:
                         </p>
                             <ul>
-                                <li>Function-Based Views: In this, we import our views as a function.</li>
-                                <li>Class-Based Views: It's an object-oriented approach.</li>
+                                <li><b><i>Function-Based Views:</i></b> In this, we import our views as a function.</li>
+                                <li><b><i>Class-Based Views:</i></b> It's an object-oriented approach.</li>
                             </ul>
                         </a>
                         <p class="l">6. What is Django ORM?</p>
-                        <a class="lA">This ORM (an acronym for Object Relational Mapper) enables us to interact with databases in more pythonic
+                        <a class="lA">This <b><i>ORM</i></b> (an acronym for <b><i>Object Relational Mapper</i></b>) enables us to interact with databases in more pythonic
                         way like we can avoid writings raw queries, it is possible to retrieve, save, delete and perform other
                         operations over the database without ever writing any SQL query. It works as an abstraction layer between the models and the database.</a>
                         <p class="l">7. Define static files and explain their uses?</p>
@@ -106,9 +106,46 @@
                         In Django, these files are referred to as "static file", Apart from that Django provides
                             <b><i>django.contrib.staticfiles</i></b> to manage these files.</a>
                         <p class="l">8. What is Django Rest Framework(DRF)?</p>
-                        <a class="lA"></a>
+                        <a class="lA">Django Rest Framework is an open-source framework based upon Django which lets
+                        you create RESTful APIs rapidly.</a>
                         <p class="l">9. What is django-admin and manage.py and explain its commands?</p>
-                        <a class="lA"></a>
+                        <a class="lA">django-admin is Django's command-line utility for administrative task.
+                        In addition to this, a manage.py file is also automatically created in each Django project.
+                            Not only does it perform the same purpose as the django-admin, but it also sets the <b><i>DJANGO_SETTINGS_MODULE</i></b>
+                         environment variables to point to the project's settings.py file
+                        <ul>
+                            <li><b><i>django-admin help</i></b> - used to display usage information and a list of the commands provided by each application.</li>
+                            <li><b><i>django-admin version</i></b> - used to check your Django version.</li>
+                            <li><b><i>django-admin check</i></b> - used to inspect the entire Django project for common problems.</li>
+                            <li><b><i>django-admin compilemessages</i></b> - Compiles .po files created by makemessages to .mo files for use with the help of built-in gettext support.</li>
+                            <li><b><i>django-admin createcachetable</i></b> - Creates the cache tables for use in the database cache backend.</li>
+                            <li><b><i>django-admin dbshell</i></b> - Runs the command-line client for the database engine specified in your ENGINE setting(s), with the connection parameters (USER, PASSWORD, DB_NAME, USER etc.) specified settings file.</li>
+                            <li><b><i>django-admin diffsettings</i></b> - Shows the difference between the existing settings file and Django’s default settings.</li>
+                            <li><b><i>django-admin dumpdata</i></b> - Used to the dumpdata from the database.</li>
+                            <li><b><i>django-admin flush</i></b> - Flush all values from the database and also re-executes any post-synchronization handlers specified in the code.</li>
+                            <li><b><i>django-admin inspectdb</i></b> - It generates django models from the existing database tables.</li>
+                            <li><b><i>django-admin loaddata</i></b> - loads the data into the database from the fixture file.</li>
+                            <li><b><i>django-admin makemessages</i></b> - Used for translation purpose and it generates a message file too.</li>
+                            <li><b><i>django-admin makemigrations</i></b> - Generates new migrations as per the changes detected to your models.</li>
+                            <li><b><i>django-admin migrate</i></b> - Executes SQL commands after which the database state with the current set of models and migrations are synchronized.</li>
+                            <li><b><i>django-admin runserver</i></b> - Starts a light-weight Web server on the local machine for development. The default server runs on port 8000 on the IP address 127.0.0.1. You can pass a custom IP address and port number explicitly if you want.</li>
+                            <li><b><i>django-admin sendtestemail</i></b> - This is used to confirm email sending through Django is working by sending a test email to the recipient(s) specified.</li>
+                            <li><b><i>django-admin shell</i></b> - Starts the Python interactive interpreter.</li>
+                            <li><b><i>django-admin showmigrations</i></b> - Shows all migrations present in the project.</li>
+                            <li><b><i>django-admin sqlflush</i></b> - Prints the SQL statements that would be executed for the flush command mentioned above.</li>
+                            <li><b><i>django-admin sqlmigrate</i></b> - Prints the SQL statement for the named migration.</li>
+                            <li><b><i>django-admin sqlsequencereset</i></b> - output the SQL queries for resetting sequences for the given app name(s).</li>
+                            <li><b><i>django-admin squashmigrations</i></b> - Squashes a range of migrations for a particular app_label.</li>
+                            <li><b><i>django-admin startapp</i></b> - Creates a new Django app for the given app name within the current directory or at the given destination.</li>
+                            <li><b><i>django-admin startproject</i></b> - Creates a new Django project directory structure for the given project name within the current directory or at the given destination.</li>
+                            <li><b><i>django-admin test</i></b> - Runs tests for all installed apps.</li>
+                            <li><b><i>django-admin testserver</i></b> - Runs a Django development server (which is also executed via the runserver command) using data from the given fixture(s).</li>
+                            <li><b><i>django-admin changepassword</i></b> - offers a method to change the user's password.</li>
+                            <li><b><i>django-admin createsuperuser</i></b> - Creates a user account with all permissions(also known as superuser account).</li>
+                            <li><b><i>django-admin remove_stale_contenttypes</i></b> - removes stale content types (from deleted models) in your database.</li>
+                            <li><b><i>django-admin clearsessions</i></b> - Can be used to clean out expired sessions or as a cron job.</li>
+                        </ul>
+                        </a>
                         <p class="l">10. What is Jinja templating?</p>
                         <a class="l0A"></a>
                         <p class="l">11. What are Django URLs?</p>
