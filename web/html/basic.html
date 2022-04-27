@@ -147,13 +147,42 @@
                         </ul>
                         </a>
                         <p class="l">10. What is Jinja templating?</p>
-                        <a class="l0A"></a>
+                        <a class="lA">Jinja Templating is a very popular templating engine for Python,
+                        the latest version is Jinja 2.
+                        <p>Some of its features are:</p>
+                        <ul>
+                            <li>Sandbox Execution - This is a sandbox (or protected) framework for automating the testing process.</li>
+                            <li>HTML Escaping - It provides automatic HTML escaping as <, >, & characters have special values
+                            in templates and if using regular text, these symbols can lead to XSS Attacks which Jinja deals with automatically.</li>
+                            <li>Template Inheritance.</li>
+                            <li>Generates HTML templates much faster than default engine.</li>
+                            <li>Easier to debug as compared to the default engine.</li>
+                        </ul></a>
                         <p class="l">11. What are Django URLs?</p>
-                        <a class="lA"></a>
+                        <a class="lA">URLs are one of the most important parts of a web application and Django provides you with an
+                            elegant way to design your own custom URLs with the help of its module known as <b><i>URLconf</i></b>
+                        (URL Configuration). The basic functionality of this Python module is you can design your own URLs in Django
+                        in the way you like and then map them to the Python function (View function). These URLs can be
+                        static as well as dynamic. These URLs as present in the <b><i>urls.py</i></b> where they are matched with the equivalent view function.<br><br>
+                        <b><i>
+                            from django.urls import path<br>
+                            from . import views<br>
+                            <br>
+                            urlpatterns = [<br>
+                            &nbsp &nbsp &nbsp &nbsp  path('index.html', views.index, name='index')<br>
+                            ]
+                        </i></b></a>
                         <p class="l">12. What is the difference between a project and an app in Django?</p>
-                        <a class="lA"></a>
+                        <a class="lA">In simple words a <b><i>Project</i></b> is the entire Django application and an <b><i>App</i></b> is a
+                            module inside the project that deals with one specific use case.<br>
+                            For eg, payment systems(app) in the eCommerce app(Project)</a>
                         <p class="l">13. What are the different model inheritance styles in Django?</p>
-                        <a class="lA"></a>
+                        <a class="lA"><ul>
+                            <li><b><i>Abstract Base Class Inheritance:</i></b> Used when you only need the parent class to
+                            hold information that you don't want to write for each child model.</li>
+                            <li><b><i>Multi-Table Model Inheritance:</i></b> Used when you are subclassing an existing model and need each model to have its own table in the database.</li>
+                            <li><b><i>Proxy Model Inheritance:</i></b> Used when you want to retain the model's field while altering the Python level functioning of the model.</li>
+                        </ul></a>
                     </div>
             </div>
         </div>
