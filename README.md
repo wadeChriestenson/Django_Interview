@@ -21,3 +21,11 @@ Informs user to some major companies that use the framework.
 ## JS File Structure
 
 - index.js - Currently not used in the application. 
+
+## Contribution
+- Clone Repo - https://github.com/wadeChriestenson/Django_Interview.git
+- Make changes
+- Submit a Pull Request when ready.
+
+## License
+Released under the MIT License
