@@ -4,7 +4,7 @@
 
 ## WEB - Directory
  
-- ## HTML files.
+- ## html file.
 
    - index.html - Main landing page, has information and reasons why to use Django. 
 Informs user to some major companies that use the framework.
@@ -12,12 +12,12 @@ Informs user to some major companies that use the framework.
    - intermediate.html - Has the intermediate Django interview questions. (Still needs the answer filled in.)
    - advanced.html - Has the advanced Django interview questions. (Still needs the answers filled in).
 
-- ## CSS Files.
+- ## css file.
 
    - index.css - Used for index.html
    - main.css - Used for basic, intermediate and advanced.html files
 
-- ## JS File
+- ## js file
 
    - index.js - Currently not used in the application. 
 
