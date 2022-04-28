@@ -29,3 +29,9 @@ Informs user to some major companies that use the framework.
 
 ## License
 Released under the MIT License
+
+
+## Content Providers
+- https://www.interviewbit.com/
+- https://auth0.com/
+- https://www.djangoproject.com/
